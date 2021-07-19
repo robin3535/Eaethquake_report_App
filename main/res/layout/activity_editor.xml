@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".editorActivity">
+
+    <EditText
+        android:id="@+id/mag_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="datetime"
+        android:layout_margin="30dp"
+        android:hint="Minimum Magnitude"/>
+    <EditText
+        android:id="@+id/limit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_margin="30dp"
+        android:hint="No of earthquakes to display"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="88dp"
+        android:layout_gravity="center_horizontal"
+        android:text="save"
+
+        android:layout_height="wrap_content"/>
+</LinearLayout>
